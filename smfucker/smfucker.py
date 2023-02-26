@@ -133,8 +133,6 @@ def getprofile():
 def login():
     name=input("please input your user name:")
     password= getpass.getpass("please input your password:")
-    name="The_Itach1"
-    password="1314woaikuli"
 
     smms.get_api_token(name,password)
     #print(smms.token)
